@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                 var nome = edtNome.editableText.toString();
                 txtResult.text = nome;
 
-                val intent = Intent(this,Proxima::class.java);
+                val intent = Intent(this,ProximaActivity::class.java);
                 startActivity(intent);
 
             }
